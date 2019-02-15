@@ -1,0 +1,21 @@
+﻿<Window x:Class="PhotoCollective.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhotoCollective"
+        mc:Ignorable="d"
+        Title="Photo Collective" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <ListBox x:Name="listFileGrid" HorizontalAlignment="Left" Height="318" Margin="30,45,0,0" VerticalAlignment="Top" Width="604"/>
+        <Button Click="CollectClick" Content="Collect" HorizontalAlignment="Left" Margin="663,45,0,0" VerticalAlignment="Top" Width="94" Height="32"/>
+        <CheckBox x:Name="driveD" Content="Drive D" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="driveC" Content="Drive C" HorizontalAlignment="Left" Margin="67,10,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="driveE" Content="Drive E" HorizontalAlignment="Left" Margin="330,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="Upload" Click="UploadClick" HorizontalAlignment="Left" Margin="663,119,0,0" VerticalAlignment="Top" Width="94" Height="33"/>
+        <TextBox x:Name="folderID" HorizontalAlignment="Left" Height="23" Margin="125,383,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="509"/>
+        <Label Content="Copy Folder" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,383,0,0" Width="95"/>
+        <Label Content="Life, you know - Rice" HorizontalAlignment="Left" Margin="639,386,0,0" VerticalAlignment="Top" Height="23" Width="121"/>
+
+    </Grid>
+</Window>
